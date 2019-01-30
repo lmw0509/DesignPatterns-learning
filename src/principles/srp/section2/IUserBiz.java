@@ -7,18 +7,18 @@ package principles.srp.section2;
  */
 public interface IUserBiz {
 
-	//修改用户的密码
-	public boolean changePassword(String oldPassword);
-	
-	//删除用户
-	public boolean deleteUser();
-	
-	//用户映射
-	public void mapUser();
-	
-	//增加一个组织
-	public void addOrg(IUserBO userBO,int orgID);
-	
-	//增加一个角色
-	public void addRole(IUserBO userBO,int roleID);
+    //修改用户的密码
+    boolean changePassword(String oldPassword);
+
+    //删除用户
+    boolean deleteUser();
+
+    //用户映射
+    void mapUser();
+
+    //增加一个组织
+    void addOrg(IUserBO userBO, int orgID);
+
+    //增加一个角色
+    void addRole(IUserBO userBO, int roleID);
 }

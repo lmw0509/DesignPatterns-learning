@@ -6,9 +6,8 @@ package principles.srp.section1;
  * 业务类调用
  */
 public class Client {
-	
-	public static void main(String[] args) {
-		IUserInfo userInfo = new UserInfo();
-		userInfo.changePassword("abc");
-	}
+    public static void main(String[] args) {
+        IUserInfo userInfo = new UserInfo();
+        userInfo.changePassword("abc");
+    }
 }
