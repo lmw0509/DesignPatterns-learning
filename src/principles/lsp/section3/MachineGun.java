@@ -5,9 +5,9 @@ package principles.lsp.section3;
  * I'm glad to share my knowledge with you all.
  * »úÇ¹
  */
-public class MachineGun extends AbstractGun{
-	
-	public void shoot(){
-		System.out.println("»úÇ¹É¨Éä...");
-	}
+public class MachineGun extends AbstractGun {
+
+    public void shoot() {
+        System.out.println("»úÇ¹É¨Éä...");
+    }
 }

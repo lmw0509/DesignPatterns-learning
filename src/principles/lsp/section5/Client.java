@@ -8,15 +8,15 @@ import java.util.Map;
  * I'm glad to share my knowledge with you all.
  */
 public class Client {
-	public static void invoker(){
-		//有父类的地方就有子类
-		//Father f= new Father();
-		Son f =new Son();
-		HashMap map = new HashMap();
-		f.doSomething(map);
-	}
-	
-	public static void main(String[] args) {
-		invoker();
-	}
+    private static void invoker() {
+        //有父类的地方就有子类
+        //Father f= new Father();
+        Son f = new Son();
+        HashMap map = new HashMap();
+        f.doSomething(map);
+    }
+
+    public static void main(String[] args) {
+        invoker();
+    }
 }
