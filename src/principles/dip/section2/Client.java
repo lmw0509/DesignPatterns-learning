@@ -6,12 +6,12 @@ package principles.dip.section2;
  * 业务场景类
  */
 public class Client {
-	public static void main(String[] args) {
-		IDriver zhangSan = new Driver();
-		//ICar benz = new Benz();
-		ICar bmw = new BMW();
-		
-		//张三开奔驰车
-		zhangSan.drive(bmw);
-	}
+    public static void main(String[] args) {
+        IDriver zhangSan = new Driver();
+        //ICar benz = new Benz();
+        ICar bmw = new BMW();
+
+        //张三开奔驰车
+        zhangSan.drive(bmw);
+    }
 }

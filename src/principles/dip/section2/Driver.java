@@ -5,10 +5,10 @@ package principles.dip.section2;
  * I'm glad to share my knowledge with you all.
  * 司机
  */
-public class Driver implements IDriver{
-	
-	//司机的主要职责就是驾驶汽车
-	public void drive(ICar car){
-		car.run();
-	}
+public class Driver implements IDriver {
+
+    //司机的主要职责就是驾驶汽车
+    public void drive(ICar car) {
+        car.run();
+    }
 }

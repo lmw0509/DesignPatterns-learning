@@ -5,10 +5,10 @@ package principles.dip.section4;
  * I'm glad to share my knowledge with you all.
  * 奔驰汽车
  */
-public class Benz implements ICar{
+public class Benz implements ICar {
 
-	//汽车肯定会跑
-	public void run(){
-		System.out.println("奔驰汽车开始运行...");
-	}
+    //汽车肯定会跑
+    public void run() {
+        System.out.println("奔驰汽车开始运行...");
+    }
 }

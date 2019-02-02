@@ -5,16 +5,16 @@ package principles.dip.section4;
  * I'm glad to share my knowledge with you all.
  * 司机
  */
-public class Driver implements IDriver{
-	private ICar car;
-	
-	//构造函数注入
-	public Driver(ICar _car){
-		this.car = _car;
-	}
-	
-	//司机的主要职责就是驾驶汽车
-	public void drive(){
-		this.car.run();
-	}
+public class Driver implements IDriver {
+    private ICar car;
+
+    //构造函数注入
+    public Driver(ICar _car) {
+        this.car = _car;
+    }
+
+    //司机的主要职责就是驾驶汽车
+    public void drive() {
+        this.car.run();
+    }
 }
