@@ -6,6 +6,6 @@ package principles.isp.section2;
  * 气质定义
  */
 public interface IGreatTemperamentGirl {
-	//要有气质
-	public void greatTemperament();
+    //要有气质
+    void greatTemperament();
 }
