@@ -6,9 +6,9 @@ package principles.lod.section4;
  * ÒµÎñ³¡¾°
  */
 public class Client {
-	
-	public static void main(String[] args) {
-		InstallSoftware invoker = new InstallSoftware();
-		invoker.installWizard(new Wizard());
-	}
+
+    public static void main(String[] args) {
+        InstallSoftware invoker = new InstallSoftware();
+        invoker.installWizard(new Wizard());
+    }
 }

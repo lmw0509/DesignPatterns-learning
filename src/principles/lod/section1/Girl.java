@@ -5,6 +5,6 @@ package principles.lod.section1;
  * I'm glad to share my knowledge with you all.
  * Å®Éú
  */
-public class Girl {
+class Girl {
 
 }
