@@ -1,12 +1,15 @@
+/*
 package principles.ocp.section3;
 
 import junit.framework.TestCase;
 
+*/
 /**
  * @author cbf4Life cbf4life@126.com
  * I'm glad to share my knowledge with you all.
  * NovelBook的测试类
- */
+ *//*
+
 public class NovelBookTest extends TestCase {
 	private String name = "平凡的世界";
 	private int price = 6000;
@@ -21,3 +24,4 @@ public class NovelBookTest extends TestCase {
 	}
 
 }
+*/

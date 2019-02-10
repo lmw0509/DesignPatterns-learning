@@ -6,8 +6,8 @@ package principles.ocp.section6;
  * 打折规则
  */
 public abstract class AbstractOffRole {
-	//传递进来一个对象
-	public abstract int getOffPoint();
-	
-	//读取配置文件，并形成规则
+    //传递进来一个对象
+    public abstract int getOffPoint();
+
+    //读取配置文件，并形成规则
 }

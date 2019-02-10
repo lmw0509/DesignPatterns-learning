@@ -5,16 +5,16 @@ package principles.ocp.section6;
  * I'm glad to share my knowledge with you all.
  */
 public class BookOffRole extends AbstractOffRole {
-	private IBook book;
-	
-	public BookOffRole(IBook _book){
-		this.book = _book;
-	}
-	
-	@Override
-	public int getOffPoint() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+    private IBook book;
+
+    public BookOffRole(IBook _book) {
+        this.book = _book;
+    }
+
+    @Override
+    public int getOffPoint() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
 
 }
