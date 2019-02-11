@@ -6,7 +6,7 @@ package patterns.simple_factory.section4;
  */
 public class BlackHumanFactory extends AbstractHumanFactory {
 
-	public Human createHuman() {
-		return new BlackHuman();
-	}
+    public Human createHuman() {
+        return new BlackHuman();
+    }
 }

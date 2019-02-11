@@ -5,12 +5,12 @@ package patterns.simple_factory.section2;
  * I'm glad to share my knowledge with you all.
  */
 public class Client {
-	
-	public static void main(String[] args) {
-		Creator creator = new ConcreteCreator();
-		Product product = creator.createProduct(ConcreteProduct1.class);
-		/*
-		 * 继续业务处理
-		 */
-	}
+
+    public static void main(String[] args) {
+        Creator creator = new ConcreteCreator();
+        Product product = creator.createProduct(ConcreteProduct1.class);
+        /*
+         * 继续业务处理
+         */
+    }
 }
