@@ -1,7 +1,5 @@
 package patterns.proxy.section7;
 
-import com.company.section6.GamePlayer;
-import com.company.section6.IGamePlayer;
 
 /**
  * @author cbf4Life cbf4life@126.com
